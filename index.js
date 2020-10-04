@@ -56,6 +56,10 @@ client.connect(err => {
     })
 })
 
+app.get('/', (req, res) => {
+  res.send('Ema john server');
+})
+
 
 });
 
